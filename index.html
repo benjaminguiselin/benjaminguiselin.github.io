@@ -29,6 +29,12 @@
         align-items: center;
         justify-content: center;
       }
+      .flexx-container {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+      }
       .brlarge { 
         display: block; 
         margin-bottom: 2em; 
@@ -44,12 +50,22 @@
         <span class="brlarge"></span> 
         <span class="jolii-texte"> Agrégé Préparateur </span>
         <span class="brlarge"></span> 
-        <i class='fa fa-map-marker'></i> Laboratoire de Physique de l’École Normale Supérieure de Lyon <br />
-        46 Allée d’Italie <br />
-        69007 Lyon <br />
-        France
+        <div class="flexx-container">
+          <i class='fa fa-map-marker'></i> 
+          <span>
+            Laboratoire de Physique de l’École Normale Supérieure de Lyon <br />
+            46 Allée d’Italie <br />
+            69007 Lyon <br />
+            France
+          </span>
+        </div>
         <span class="brlarge"></span> 
-        <i class='fa fa-envelope'></i> benjamin.guiselin(at)ens-lyon.fr
+        <div class="flexx-container">
+          <i class='fa fa-envelope'></i> 
+          <span>
+            benjamin.guiselin(at)ens-lyon.fr
+          </span>
+        </div>
       </span>
     </div>
   </body>
