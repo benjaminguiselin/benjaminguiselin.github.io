@@ -1,11 +1,89 @@
 <!doctype html>
 <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
     <title>
-      Presentations</title>
+      Presentations
+    </title>
+    <style>
+      /* CSS to style the text */
+      .joli-texte {
+        color: #1AAD7D;
+        font-size: 23px;
+        /* Text color */
+       }
+      .joli-titre {
+        color: #288F97;
+        font-size: 30px;
+        font-weight: bold;
+        /* Text color */
+       }
+      .joli-bouton {
+        color: #288F97;
+        font-size: 23px;
+        font-weight: bold;
+        /* Text color */
+      }
+      body {
+        font-family: 'Fira Sans';
+        font-size: 18px;
+      }
+      /* Create a flex container */
+      .flex-container {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+      }
+      .brnormal { 
+        display: block; 
+        margin-bottom: 1em; 
+      } 
+      .brlarge { 
+        display: block; 
+        margin-bottom: 2em; 
+      } 
+      .brhuge { 
+        display: block; 
+        margin-bottom: 3em; 
+      } 
+      .petite-marge {
+        margin-left: 2em;
+      }
+      .marge {
+        margin-left: 4em;
+      }
+    </style>
   </head>
   
   <body>
-    XX
+    <div class="flex-container">
+      <span>
+        <a style="text-decoration: none" href="index.html">
+          <span class="joli-bouton">Home</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="cv.html">
+          <span class="joli-bouton">CV</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="pres.html">
+          <span class="joli-bouton">Presentations</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="publi.html">
+          <span class="joli-bouton">Publications</span>
+        </a>
+      </span>
+      <span>
+        <a style="text-decoration: none" href="teaching.html">
+          <span class="joli-bouton">Teaching</span>
+        </a>
+      </span>
+    </div>
+    <span class="brhuge"></span> 
   </body>
 </html>
